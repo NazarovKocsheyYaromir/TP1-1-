@@ -53,9 +53,7 @@
 ## Сборка
 
 ```bash
-g++ -std=c++17 -Wall -Wextra -o lab1_app main.cpp \
-    Base/Base.cpp Poet/Poet.cpp Novelist/Novelist.cpp \
-    SciFiWriter/SciFiWriter.cpp Keeper/Keeper.cpp
+g++ -std=c++17 -Wall -Wextra -o lab1_app main.cpp Base/Base.cpp Poet/Poet.cpp Novelist/Novelist.cpp SciFiWriter/SciFiWriter.cpp Keeper/Keeper.cpp
 ```
 
 ## Запуск
@@ -74,3 +72,5 @@ g++ -std=c++17 -Wall -Wextra -o lab1_app main.cpp \
 7. Загрузить из файла
 8. Очистить контейнер
 0. Выход
+
+Программа полностью протестирована и выполняет свой функционал в заданных условиях.
