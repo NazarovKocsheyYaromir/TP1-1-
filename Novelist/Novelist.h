@@ -20,6 +20,7 @@ public:
     Novelist& operator=(const Novelist& other);
     ~Novelist() override;
 
+    //геттер сеттеры
     void setBirthYear(int y);
     void setDeathYear(int y);
     void setBiography(const char* bio);

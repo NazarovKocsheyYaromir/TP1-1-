@@ -49,8 +49,8 @@ void printMainMenu() {
     cout << "Ваш выбор: ";
 }
 
-void addObject(Keeper& keeper) {
-    cout << "\nВыберите тип объекта:" << endl;
+void addObject(Keeper& k) {
+    cout << "\nВыберите тип объекта:\n" << endl;
     cout << "1. Поэт" << endl;
     cout << "2. Романист" << endl;
     cout << "3. Фантаст" << endl;
@@ -72,7 +72,7 @@ void addObject(Keeper& keeper) {
         throw;
     }
 
-    keeper.add(obj);
+    k.add(obj);
     cout << "Объект успешно добавлен." << endl;
 }
 

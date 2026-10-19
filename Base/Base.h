@@ -41,7 +41,7 @@ public:
 
     // Печать сведений об объекте
     virtual void print() const = 0;
-    // Создание копии объекта на куче (для глубокого копирования в Keeper)
+    // Создание копии объекта на куче (для копирования в Keeper)
     virtual Base* clone() const = 0;
     // Тип объекта (для сохранения/загрузки)
     virtual int getType() const = 0;
@@ -51,7 +51,7 @@ public:
     virtual void saveToFile(std::ofstream& out) const;
     virtual void loadFromFile(std::ifstream& in);
 
-    // Ввод данных объекта с клавиатуры
+    // Ввод данных объекта с клавиатуры, заполнение полей дочерних классов
     virtual void inputData();
     // Интерактивное меню редактирования конкретного объекта
     virtual void editMenu() = 0;
